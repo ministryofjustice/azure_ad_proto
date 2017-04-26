@@ -31,9 +31,9 @@ require 'pry'
 AUTHORITY = 'login.windows.net'
 RESOURCE = 'https://graph.windows.net' # Azure AD Graph API NOTE: this is not the MS Graph API
 # RESOURCE = 'https://graph.microsoft.com' # MS Graph API NOTE: this is not the Azure AD Graph API
-CLIENT_ID = ENV['AAD_TEST_CLIENT_ID']
-CLIENT_SECRET = ENV['AAD_TEST_CLIENT_SECRET']
-TENANT_ID = ENV['AAD_TEST_TENANT_ID']
+CLIENT_ID = ENV['AAD_PROTO_CLIENT_ID']
+CLIENT_SECRET = ENV['AAD_PROTO_CLIENT_SECRET']
+TENANT_ID = ENV['AAD_PROTO_TENANT_ID']
 
 # AuthenticationContext is specific to a tenant. Our application only cares
 # about one tenant, so we only need one AuthenticationContext.
